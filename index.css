@@ -1,0 +1,83 @@
+@media all and (max-width: 767px) {
+    body{
+        color: black;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navbar-sticky-on-top{
+        position: sticky;
+        color: black;
+        font-family: 'Playfair Display', serif;
+        background-color: #e8eaeda8;
+        text-decoration: none;
+        font-size: 19px;
+        padding: 10px 0px 10px 8px;
+        
+    }
+
+    .navbar-sticky-on-top .my-name:hover{
+        color: black;
+    }
+
+    .body-1{
+        font-family: 'Assistant', sans-serif;
+        font-weight: 500px;
+
+    }
+    .user-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .my-info .my-name{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+
+    .my-info .about-me{
+        margin-top: 7px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .container{
+        position: relative;
+    }
+
+    .container .my-resume-and-about-me{
+        margin: 0;
+        margin-top: 10px;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .okk-techie{
+        font-size: 17px;
+        margin-top:10px;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .edu-work{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .skill-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+}
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Code Pro', monospace; */
