@@ -27,7 +27,7 @@
 
     }
     .user-image{
-        border-radius: 50%;
+        
         box-sizing: border-box;
         box-shadow: 17px 15px 36px -17px rgb(0 0 0 / 9%);
         display: block;
@@ -47,8 +47,21 @@
         text-align: center;
         font-size: 13px;
     }
-    .container{
-        position: relative;
+    .container .my-resume-and-about-me button{
+        color: #3333c8b8;
+        background-color: white;
+        box-sizing: border-box;
+        border: 1px solid #3333c8b8;
+        box-shadow: 11px 15px 24px -11px rgb(0 0 0 / 12%);
+        border-radius: 16px;
+        height: 30px;
+        width:100px;
+    }
+
+    .container .my-resume-and-about-me button:hover{
+        transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+        color: white;
+        background-color: #2424cfb5;
     }
 
     .container .my-resume-and-about-me{
@@ -80,6 +93,14 @@
     }
 
     /* ------------------ Work - Box ------------------------------ */
+    .container-2{
+        margin-top: 20px;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
 
     .work-box{
         box-sizing:border-box;
@@ -97,20 +118,65 @@
         margin-left: 3px;
     }
     .name-1 p{
-        font-size: 8px;
+        font-size: 12px;
         margin-bottom: 2px;
+    }
+    .dec-1{
+        font-size: 6px;
     }
     .name-2 p{
         color: blue;
-        margin-top: 0px;
+        margin-top: 4px;
         margin-bottom: 0px;
-        font-size: 3.5px;
+        font-size: 6px;
     }
     .user-name p{
         margin-top: 3px;
-        font-size: 5px;
+        font-size: 6px;
     }
 
+    .contact-form input{
+        width: 98%;
+        height: 26px;
+        border: 1px solid  rgba(59, 3, 173, 0.642) ;
+        box-sizing: border-box;
+        border-radius: 5px;
+        box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    }
+    .cont-1{
+        margin: 0;
+        margin-bottom: 3px;
+        font-size: 8px;
+    }
+    .submit-btn{
+        margin-top: 10px;
+        color: white;
+        background-color: #3333c8b8;
+        box-sizing: border-box;
+        border: 1px solid #3333c8b8;
+        box-shadow: 11px 15px 24px -11px rgb(0 0 0 / 12%);
+        border-radius: 6px;
+        height: 30px;
+        width:60px;
+    }
+    .submit-btn:hover{
+        color:#3333c8b8 ;
+        background-color: white;   
+    }
+    .user-mail{
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .copyright p{
+        height: 16px;
+        margin: 0;
+        padding-top: 6px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgba(0, 0, 255, 0.493);
+        text-align: center;
+        font-size: 8px;
+    }
 }
 /* 
 font-family: 'DM Sans', sans-serif;
